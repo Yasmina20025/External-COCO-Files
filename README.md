@@ -182,23 +182,4 @@ COCO available in Darwin / AIDA
 
 ---
 
-## Notes & Best Practices
 
-* Always validate the COCO file after processing
-* Ensure category names match the expected taxonomy
-* Confirm S3 permissions and IAM role access before running uploads
-* Use meaningful `batch_id` and `coco_id` values for traceability
-
----
-
-## Troubleshooting
-
-* **Job fails immediately**: Check IAM role permissions
-* **COCO not visible in Darwin**: Verify category names and image IDs
-* **Key errors**: Ensure `file_name` exists after preprocessing
-
----
-
-## Author & Ownership
-
-Maintained as part of the COCO annotation and batch ingestion pipeline.
